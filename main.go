@@ -1,6 +1,6 @@
 package main
 
-import "ar_logger/logger"
+import "github.com/ABDO-AR/ar_logger/logger"
 
 // Main:
 func main() {

@@ -6,6 +6,12 @@ log messages as well as easy to debug & understand the application, also its sup
 with `JSON` syntax so that it can be used as API for the application administration panel or used directly by the 
 developers for better debugging their application.
 
+#### Run This CLI Command For The Installation
+
+```shell
+go get -u github.com/ABDO-AR/ar_logger
+```
+
 #### Example of using AR-Logger
 
 ```go

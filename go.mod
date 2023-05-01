@@ -1,4 +1,4 @@
-module ar_logger
+module github.com/ABDO-AR/ar_logger
 
 go 1.19
 
