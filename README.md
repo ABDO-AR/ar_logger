@@ -1,10 +1,10 @@
 # AR-Logger Golang PKG.
 
-AR-Logger package for Golang was created by `ABDO-AR` the creator & administrator of **AR-TEAM** &
-the owner of **AR-Company**, this package was created to provide better logging system
-in `Golang` with modern & beauty CLI log messages as well as easy to debug & understand the application,
-also it's support saving logs into log file with `JSON` syntax so that it can be used as api for the application administration
-panel or used directly by the developers for better debugging their application.
+AR-Logger package for Golang was created by `ABDO-AR` the creator & administrator of **AR-TEAM** & the owner 
+of **AR-Company**, this package was created to provide a better logging system in `Golang` with modern & beautiful CLI
+log messages as well as easy to debug & understand the application, also its support saving logs into a log file
+with `JSON` syntax so that it can be used as API for the application administration panel or used directly by the 
+developers for better debugging their application.
 
 #### Example of using AR-Logger
 
