@@ -154,7 +154,7 @@ func displayLogWithStyle(
 	}
 	// Displaying:
 	fmt.Printf(
-		color.Colorize(dateColor, " %s ")+
+		color.Colorize(dateColor, " %s  ")+
 			color.Colorize(typeColor, " %s ")+
 			color.Colorize(tagsColor, " %s: ")+
 			" "+
@@ -169,6 +169,11 @@ func logData(tag string, message string, logType LogType) {
 	timestamps := time.Now().UnixMilli()
 	// Logging:
 	displayLogWithStyle(date, tag, message, logType)
+	// Checking:
+	if len(tag) < 3 {
+		// LOGGING:
+		logData("AR-Logger", "Tags must be at least 3 len for better formatting!", WARNING)
+	}
 	// Reading:
 	logs := readLogs()
 	newLog := LogEntity{
