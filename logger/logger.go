@@ -154,8 +154,8 @@ func displayLogWithStyle(
 	}
 	// Displaying:
 	fmt.Printf(
-		color.Colorize(dateColor, " %s \u200F")+
-			color.Colorize(typeColor, " %s \u200F")+
+		color.Colorize(dateColor, " %s\u200F")+
+			color.Colorize(typeColor, " %s\u200F")+
 			color.Colorize(tagsColor, " %s: ")+
 			" "+
 			"%s\n",
