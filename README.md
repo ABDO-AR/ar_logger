@@ -9,7 +9,7 @@ developers for better debugging their application.
 #### Run This CLI Command For The Installation
 
 ```shell
-go get -u github.com/ABDO-AR/ar_logger@v1.0.1
+go get -u github.com/ABDO-AR/ar_logger@v1.0.6
 ```
 
 #### Example of using AR-Logger
